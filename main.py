@@ -18,9 +18,10 @@ for kelas in df['KELAS'].unique():
     overlap_count = len(set(dosen_3ka19) & set(dosen_other))
     similarity_counts[kelas] = overlap_count
 
-# Step 3: Find the class with the highest overlap
-most_similar_class = max(similarity_counts, key=similarity_counts.get)
-most_similar_count = similarity_counts[most_similar_class]
+# Step 3: Display all classes sorted by similarity
+similarity_df = pd.DataFrame.from_dict(similarity_counts, orient='index', columns=['Overlap Count'])
+similarity_df = similarity_df.sort_values(by='Overlap Count', ascending=False)
 
-# Display the results
-print(f"The class most similar to 3KA19 is {most_similar_class} with {most_similar_count} similar DOSEN(s).")
+# Print the sorted DataFrame
+print("Similarity counts for all classes compared to 3KA19:")
+print(similarity_df)
