@@ -1,0 +1,181 @@
+KELAS,HARI,MATA KULIAH,WAKTU,RUANG,DOSEN
+3KA01,Selasa,Interaksi Manusia & Komputer*/**,4/5/6,E317,FEBRIANI
+3KA01,Selasa,Konsep Data Mining,9/10,E317,KOKO BACHRUDIN
+3KA01,Rabu,Sistem Keamanan Tek. Informasi *,1/2/3,E514,RODIAH
+3KA01,Rabu,Statistika **,4/5/6,E514,PENI SAWITRI
+3KA01,Rabu,Graf & Analisis Algoritma,8/9/10,E425,BUDI SETIAWAN2/TEGUH YUNIARKO
+3KA01,Kamis,Metode Penelitian,1/2,E318,TEDDY OSWARI
+3KA01,Kamis,Pemrograman Berbasis Web **,3/4,E318,REVIDA IRIANA NAPITUPULU
+3KA01,Kamis,Jejaring Sosial&Konten Kreatif,6/7,E414,JULIA FAJARYANTI
+3KA01,Kamis,Bahasa Indonesia 2,9/10,E314,ROSI ROSIDAH
+3KA02,Senin,Metode Penelitian,1/2,E441,PUJI RAHAYU SETYANINGSIH
+3KA02,Senin,Graf & Analisis Algoritma,5/6/7,E331,TEGUH YUNIARKO
+3KA02,Senin,Sistem Keamanan Tek. Informasi *,8/9/10,E331,CUT MAISYARAH KARYATI
+3KA02,Selasa,Interaksi Manusia & Komputer*/**,1/2/3,E313,FEBRIANI
+3KA02,Selasa,Jejaring Sosial&Konten Kreatif,4/5,E313,JALINAS/SAYIDATI KARIMA
+3KA02,Selasa,Bahasa Indonesia 2,7/8,E449,ANDINI KURNIA FITRIANA
+3KA02,Rabu,Statistika **,1/2/3,E513,PENI SAWITRI
+3KA02,Rabu,Pemrograman Berbasis Web **,5/6,E122,BERTALYA
+3KA02,Rabu,Konsep Data Mining,7/8,E122,TUBAGUS MAULANA KUSUMA
+3KA03,Senin,Graf & Analisis Algoritma,1/2/3,E522,NURWENDO HARICAHYADI
+3KA03,Senin,Statistika **,4/5/6,E522,SRI RAKHMAWATI
+3KA03,Senin,Metode Penelitian,9/10,E516,MUFID SURYANI
+3KA03,Rabu,Interaksi Manusia & Komputer*/**,1/2/3,E217,FENNI AGUSTINA
+3KA03,Rabu,Pemrograman Berbasis Web **,5/6,E321,RHEZA ANDIKA
+3KA03,Rabu,Sistem Keamanan Tek. Informasi *,7/8/9,E217,ASTIE DARMAYANTIE
+3KA03,Sabtu,Jejaring Sosial&Konten Kreatif,4/5,G315,NOVIA FATIMAH
+3KA03,Sabtu,Konsep Data Mining,6/7,G315,SILVIA HARLENA
+3KA03,Sabtu,Bahasa Indonesia 2,8/9,G315,MARGARETHA SUMARWATI
+3KA04,Senin,Pemrograman Berbasis Web **,1/2,E449,DEWI ANGGRAINI PUSPA HAPSARI
+3KA04,Senin,Jejaring Sosial&Konten Kreatif,3/4,E449,DIANA IKASARI
+3KA04,Senin,Statistika **,6/7/8,E325,RETNO MAHARESI
+3KA04,Senin,Bahasa Indonesia 2,9/10,E325,ANDINI KURNIA FITRIANA
+3KA04,Selasa,Metode Penelitian,1/2,E227,IKHWAN H S
+3KA04,Selasa,Graf & Analisis Algoritma,4/5/6,E122,AVINANTA TARIGAN
+3KA04,Selasa,Konsep Data Mining,7/8,E122,KOKO BACHRUDIN
+3KA04,Rabu,Sistem Keamanan Tek. Informasi *,4/5/6,E211,ASTIE DARMAYANTIE
+3KA04,Rabu,Interaksi Manusia & Komputer*/**,7/8/9,E211,TAUFIK HIDAYAT
+3KA05,Senin,Statistika **,1/2/3,E347,SRI RAKHMAWATI
+3KA05,Senin,Sistem Keamanan Tek. Informasi *,5/6/7,E333,CUT MAISYARAH KARYATI
+3KA05,Senin,Jejaring Sosial&Konten Kreatif,9/10,E337,DIANA IKASARI
+3KA05,Rabu,Bahasa Indonesia 2,1/2,E223,SITI PUJIANTI
+3KA05,Rabu,Interaksi Manusia & Komputer*/**,4/5/6,E218,FENNI AGUSTINA
+3KA05,Rabu,Pemrograman Berbasis Web **,9/10,E321,BERTALYA
+3KA05,Sabtu,Konsep Data Mining,1/2,E245,SILVIA HARLENA
+3KA05,Sabtu,Graf & Analisis Algoritma,4/5/6,E245,WINARTI DWI ASTUTI
+3KA05,Sabtu,Metode Penelitian,7/8,E245,RIRIN YULIYANTI
+3KA06,Senin,Graf & Analisis Algoritma,1/2/3,E343,TEGUH YUNIARKO
+3KA06,Selasa,Konsep Data Mining,3/4,E321,TUBAGUS MAULANA KUSUMA
+3KA06,Selasa,Statistika **,6/7/8,E522,THOMAS YUNI GUNARTO
+3KA06,Selasa,Jejaring Sosial&Konten Kreatif,9/10,E522,JALINAS/SAYIDATI KARIMA
+3KA06,Kamis,Bahasa Indonesia 2,3/4,E522,ARI WIJAYA BASUKI RAHARJO
+3KA06,Kamis,Interaksi Manusia & Komputer*/**,5/6/7,E311,MARLIZA GANEFI GUMAY
+3KA06,Sabtu,Metode Penelitian,1/2,E347,MUHAMMAD FIRDAUS
+3KA06,Sabtu,Sistem Keamanan Tek. Informasi *,3/4/5,E347,SYALIS IBNIH MELATI ISTINI
+3KA06,Sabtu,Pemrograman Berbasis Web **,7/8,E347,OVAN SUNARTO PULU
+3KA07,Senin,Statistika **,3/4/5,E243,RETNO MAHARESI
+3KA07,Senin,Jejaring Sosial&Konten Kreatif,7/8,E526,DIANA IKASARI
+3KA07,Senin,Bahasa Indonesia 2,9/10,E526,SANGSANG SANGABAKTI
+3KA07,Selasa,Konsep Data Mining,2/3,D636,SIWI PRIHATININGSIH
+3KA07,Selasa,Sistem Keamanan Tek. Informasi *,4/5/6,D636,IMAM AHMAD TRINUGROHO
+3KA07,Selasa,Pemrograman Berbasis Web **,9/10,D656,HANUM PUTRI PERMATASARI
+3KA07,Kamis,Graf & Analisis Algoritma,1/2/3,E226,RICKY AGUS TJIPTANATA
+3KA07,Kamis,Metode Penelitian,6/7,E315,TEDDY OSWARI
+3KA07,Kamis,Interaksi Manusia & Komputer*/**,8/9/10,E315,MARLIZA GANEFI GUMAY
+3KA08,Selasa,Bahasa Indonesia 2,1/2,E232,RAFIQA MAULIDIA
+3KA08,Selasa,Pemrograman Berbasis Web **,3/4,E232,HANUM PUTRI PERMATASARI
+3KA08,Selasa,Konsep Data Mining,6/7,E237,IHSAN JATNIKA
+3KA08,Selasa,Sistem Keamanan Tek. Informasi *,8/9/10,E237,DHIAN SWEETANIA
+3KA08,Kamis,Interaksi Manusia & Komputer*/**,1/2/3,E215,TAUFIK HIDAYAT
+3KA08,Kamis,Statistika **,5/6/7,E344,SANDY SURYADY
+3KA08,Kamis,Graf & Analisis Algoritma,8/9/10,E344,RICKY AGUS TJIPTANATA
+3KA08,Sabtu,Metode Penelitian,3/4,E328,MUHAMMAD FIRDAUS
+3KA08,Sabtu,Jejaring Sosial&Konten Kreatif,6/7,E247,MUHAMMAD FADLY
+3KA09,Senin,Konsep Data Mining,1/2,E248,IHSAN JATNIKA
+3KA09,Senin,Bahasa Indonesia 2,4/5,E432,NURMANINGSIH
+3KA09,Senin,Metode Penelitian,7/8,E312,MUFID SURYANI
+3KA09,Senin,Pemrograman Berbasis Web **,9/10,E312,BERTALYA
+3KA09,Selasa,Graf & Analisis Algoritma,1/2/3,E211,AVINANTA TARIGAN
+3KA09,Selasa,Interaksi Manusia & Komputer*/**,4/5/6,E211,FENNI AGUSTINA
+3KA09,Selasa,Statistika **,8/9/10,E234,BINTARTI YUSRIANA
+3KA09,Kamis,Jejaring Sosial&Konten Kreatif,3/4,E323,JULIA FAJARYANTI
+3KA09,Kamis,Sistem Keamanan Tek. Informasi *,6/7/8,E341,SWELANDIAH ENDAH PRATIWI
+3KA10,Selasa,Konsep Data Mining,4/5,D667,SIWI PRIHATININGSIH
+3KA10,Selasa,Pemrograman Berbasis Web **,7/8,D654,HANUM PUTRI PERMATASARI
+3KA10,Selasa,Metode Penelitian,9/10,D654,AINI SURI TALITA
+3KA10,Rabu,Statistika **,1/2/3,E216,KOMSI KORANTI
+3KA10,Rabu,Interaksi Manusia & Komputer*/**,4/5/6,E216,FEBRIANI
+3KA10,Rabu,Sistem Keamanan Tek. Informasi *,8/9/10,E247,FITRIANINGSIH
+3KA10,Kamis,Bahasa Indonesia 2,1/2,E526,ARI WIJAYA BASUKI RAHARJO
+3KA10,Kamis,Graf & Analisis Algoritma,4/5/6,E226,RICKY AGUS TJIPTANATA
+3KA10,Kamis,Jejaring Sosial&Konten Kreatif,7/8,E226,ERNIANTI HASIBUAN
+3KA11,Senin,Bahasa Indonesia 2,1/2,E521,ANDINI KURNIA FITRIANA
+3KA11,Senin,Metode Penelitian,4/5,E212,MUFID SURYANI
+3KA11,Senin,Statistika **,6/7/8,E212,SRI WULAN W RATIH
+3KA11,Selasa,Pemrograman Berbasis Web **,1/2,E334,DEWI ANGGRAINI PUSPA HAPSARI
+3KA11,Selasa,Sistem Keamanan Tek. Informasi *,4/5/6,E517,RODIAH
+3KA11,Selasa,Konsep Data Mining,8/9,E334,IHSAN JATNIKA
+3KA11,Kamis,Jejaring Sosial&Konten Kreatif,1/2,E443,JULIA FAJARYANTI
+3KA11,Kamis,Interaksi Manusia & Komputer*/**,4/5/6,E215,TAUFIK HIDAYAT
+3KA11,Kamis,Graf & Analisis Algoritma,8/9/10,E215,IVAN MAURITS
+3KA12,Selasa,Sistem Keamanan Tek. Informasi *,1/2/3,E332,MAULANA MUJAHIDIN
+3KA12,Selasa,Pemrograman Berbasis Web **,4/5,E332,RHEZA ANDIKA
+3KA12,Selasa,Bahasa Indonesia 2,7/8,E246,ABDUR ROCHMAN
+3KA12,Rabu,Statistika **,1/2/3,E226,PARANITA ASNUR
+3KA12,Rabu,Konsep Data Mining,4/5,E226,TUBAGUS MAULANA KUSUMA
+3KA12,Rabu,Interaksi Manusia & Komputer*/**,7/8/9,E212,FENNI AGUSTINA
+3KA12,Kamis,Metode Penelitian,3/4,E233,TEDDY OSWARI
+3KA12,Kamis,Graf & Analisis Algoritma,6/7/8,E521,AVINANTA TARIGAN
+3KA12,Kamis,Jejaring Sosial&Konten Kreatif,9/10,E521,ERNIANTI HASIBUAN
+3KA13,Senin,Statistika **,1/2/3,E317,SRI WULAN W RATIH
+3KA13,Senin,Konsep Data Mining,5/6,E241,IHSAN JATNIKA
+3KA13,Senin,Bahasa Indonesia 2,7/8,E241,ANDINI KURNIA FITRIANA
+3KA13,Senin,Jejaring Sosial&Konten Kreatif,9/10,E241,VIVIEN NOVA FITHRIANA
+3KA13,Selasa,Interaksi Manusia & Komputer*/**,1/2/3,E214,FENNI AGUSTINA
+3KA13,Selasa,Graf & Analisis Algoritma,4/5/6,E214,NURWENDO HARICAHYADI
+3KA13,Selasa,Sistem Keamanan Tek. Informasi *,8/9/10,E233,SWELANDIAH ENDAH PRATIWI
+3KA13,Sabtu,Metode Penelitian,5/6,E241,IKHWAN H S
+3KA13,Sabtu,Pemrograman Berbasis Web **,9/10,E241,OVAN SUNARTO PULU
+3KA14,Senin,Metode Penelitian,1/2,E338,ANA DWI PERTIWI
+3KA14,Senin,Bahasa Indonesia 2,3/4,E338,MELANIAWATI
+3KA14,Senin,Pemrograman Berbasis Web **,6/7,E435,DEWI ANGGRAINI PUSPA HAPSARI
+3KA14,Senin,Statistika **,8/9/10,E435,SRI RAKHMAWATI
+3KA14,Selasa,Konsep Data Mining,1/2,E321,TUBAGUS MAULANA KUSUMA
+3KA14,Selasa,Sistem Keamanan Tek. Informasi *,5/6/7,E235,DHIAN SWEETANIA
+3KA14,Selasa,Graf & Analisis Algoritma,8/9/10,E235,NURWENDO HARICAHYADI
+3KA14,Rabu,Interaksi Manusia & Komputer*/**,1/2/3,E123,DARMASTUTI
+3KA14,Rabu,Jejaring Sosial&Konten Kreatif,4/5,E123,I MADE WIRYANA
+3KA15,Senin,Jejaring Sosial&Konten Kreatif,1/2,G313,DIANA IKASARI
+3KA15,Senin,Metode Penelitian,3/4,G313,HANTORO ARIEF GISIJANTO
+3KA15,Senin,Konsep Data Mining,7/8,G444,IHSAN JATNIKA
+3KA15,Selasa,Sistem Keamanan Tek. Informasi *,1/2/3,E413,RODIAH
+3KA15,Selasa,Statistika **,5/6/7,E448,BINTARTI YUSRIANA
+3KA15,Selasa,Bahasa Indonesia 2,9/10,E122,ANDINI KURNIA FITRIANA
+3KA15,Kamis,Interaksi Manusia & Komputer*/**,1/2/3,E313,MARLIZA GANEFI GUMAY
+3KA15,Kamis,Pemrograman Berbasis Web **,5/6,E318,REVIDA IRIANA NAPITUPULU
+3KA15,Sabtu,Graf & Analisis Algoritma,1/2/3,E311,BUDI SETIAWAN2/WINARTI DWIASTUTI
+3KA16,Senin,Sistem Keamanan Tek. Informasi *,1/2/3,E327,ASTIE DARMAYANTIE
+3KA16,Senin,Metode Penelitian,4/5,E444,ANA DWI PERTIWI
+3KA16,Senin,Pemrograman Berbasis Web **,7/8,E313,BERTALYA
+3KA16,Kamis,Graf & Analisis Algoritma,1/2/3,D633,AHMAD APANDI
+3KA16,Kamis,Interaksi Manusia & Komputer*/**,4/5/6,D633,MEILANI B SIREGAR
+3KA16,Kamis,Jejaring Sosial&Konten Kreatif,9/10,D662,SIWI PRIHATININGSIH
+3KA16,Sabtu,Konsep Data Mining,2/3,E447,KOKO BACHRUDIN
+3KA16,Sabtu,Bahasa Indonesia 2,4/5,E447,SANGSANG SANGABAKTI
+3KA16,Sabtu,Statistika **,7/8/9,E447,MOH. EGA ELMAN MISKA
+3KA17,Senin,Bahasa Indonesia 2,1/2,E442,MELANIAWATI
+3KA17,Senin,Pemrograman Berbasis Web **,3/4,E442,DEWI ANGGRAINI PUSPA HAPSARI
+3KA17,Senin,Metode Penelitian,5/6,E442,PUJI RAHAYU SETYANINGSIH
+3KA17,Rabu,Interaksi Manusia & Komputer*/**,1/2/3,E212,FEBRIANI
+3KA17,Rabu,Sistem Keamanan Tek. Informasi *,4/5/6,E212,RODIAH
+3KA17,Rabu,Graf & Analisis Algoritma,8/9/10,E446,RICKY AGUS TJIPTANATA
+3KA17,Sabtu,Jejaring Sosial&Konten Kreatif,2/3,G229,NOVIA FATIMAH
+3KA17,Sabtu,Statistika **,5/6/7,G229,ANDY WIDYANTHO
+3KA17,Sabtu,Konsep Data Mining,8/9,G229,SILVIA HARLENA
+3KA18,Selasa,Interaksi Manusia & Komputer*/**,4/5/6,E423,DARMASTUTI
+3KA18,Selasa,Jejaring Sosial&Konten Kreatif,7/8,E245,SIWI PRIHATININGSIH
+3KA18,Selasa,Bahasa Indonesia 2,9/10,E245,SANGSANG SANGABAKTI
+3KA18,Rabu,Konsep Data Mining,1/2,E211,TUBAGUS MAULANA KUSUMA
+3KA18,Rabu,Sistem Keamanan Tek. Informasi *,4/5/6,E243,FITRIANINGSIH
+3KA18,Rabu,Statistika **,8/9/10,E243,EDI MINAJI PRIBADI
+3KA18,Kamis,Pemrograman Berbasis Web **,1/2,E315,REVIDA IRIANA NAPITUPULU
+3KA18,Kamis,Graf & Analisis Algoritma,3/4/5,E315,AVINANTA TARIGAN
+3KA18,Kamis,Metode Penelitian,7/8,E322,AINI SURI TALITA
+3KA19,Senin,Metode Penelitian,1/2,E315,TEDDY OSWARI
+3KA19,Senin,Sistem Keamanan Tek. Informasi *,4/5/6,E326,ASTIE DARMAYANTIE
+3KA19,Senin,Graf & Analisis Algoritma,8/9/10,E424,TEGUH YUNIARKO
+3KA19,Selasa,Interaksi Manusia & Komputer*/**,1/2/3,E423,DARMASTUTI
+3KA19,Selasa,Jejaring Sosial&Konten Kreatif,4/5,E433,I MADE WIRYANA
+3KA19,Selasa,Bahasa Indonesia 2,7/8,E444,RAFIQA MAULIDIA
+3KA19,Rabu,Statistika **,2/3/4,E234,EDI MINAJI PRIBADI
+3KA19,Rabu,Pemrograman Berbasis Web **,7/8,E222,RHEZA ANDIKA
+3KA19,Rabu,Konsep Data Mining,9/10,E222,TUBAGUS MAULANA KUSUMA
+3KA20,Selasa,Jejaring Sosial&Konten Kreatif,1/2,E136,I MADE WIRYANA
+3KA20,Selasa,Metode Penelitian,3/4,E136,IKHWAN H S
+3KA20,Selasa,Bahasa Indonesia 2,5/6,E136,TOTO SUGIHARTO/TRI BUDIARTA
+3KA20,Selasa,Interaksi Manusia & Komputer*/**,8/9/10,E227,DARMASTUTI
+3KA20,Rabu,Sistem Keamanan Tek. Informasi *,1/2/3,E225,ASTIE DARMAYANTIE
+3KA20,Rabu,Statistika **,4/5/6,E225,IMAN MURTONO SOENHADJI
+3KA20,Kamis,Pemrograman Berbasis Web **,1/2,E326,DINA SUCI DARWATI
+3KA20,Kamis,Graf & Analisis Algoritma,3/4/5,E326,IVAN MAURITS
+3KA20,Kamis,Konsep Data Mining,7/8,E346,MUFID NILMADA
