@@ -2,8 +2,9 @@
 skrip ini berfungsi untuk menunjukan relasi antara kelas 3ka19 dan kelas lain dengan seberapa banyak kelas lain yg memiliki dosen yang sama
 
 ## How to Run
-1. run `streamlit run main.py`.
+1. jalankan `streamlit run main.py`.
+2. Gunakan sesuai instruksinya
 
-or
+atau
 
-visit `https://kadepokclasschecker.streamlit.app/`
+klik `https://kadepokclasschecker.streamlit.app/`
