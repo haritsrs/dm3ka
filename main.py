@@ -104,3 +104,5 @@ with st.expander("Perbandingan Kelas berdasarkan Dosen dan Mata Kuliah", expande
             st.write(f"Tidak ada kelas lain yang diajar oleh {selected_dosen}.")
         else:
             st.dataframe(comparison_df)
+
+st.write("Versi 1.4")
