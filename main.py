@@ -3,6 +3,9 @@ import pandas as pd
 
 # Title of the app
 st.title("Pemeriksa Kesamaan Dosen 3KA Depok")
+# Subtitle of the app
+st.subheader("Aplikasi untuk membandingkan dosen dan mata kuliah antara kelas")
+st.write("Dibuat oleh: Harits Raharjo Setiono")
 
 # Load the dataset directly from the existing 'baak.csv'
 df = pd.read_csv('baak.csv')  # Make sure baak.csv is in the same directory as this script
@@ -25,21 +28,16 @@ classes = df['KELAS'].unique()
 # Old feature: Class comparison to all other classes
 
 # Collapsible section
-with st.expander("Pembandingan dengan semua kelas", expanded=False):
-    # Input field for class numbers
-    input_class_numbers = st.text_area(
-        "Ketik angka kelasnya untuk dibandingkan, bila lebih dari 1 gunakan koma (Contoh: 1, 2, 3):", "19"
+with st.expander("Pembandingan dengan semua Kelas", expanded=False):
+    # Multi-select field for class numbers
+    input_class_numbers = st.multiselect(
+        "Pilih angka kelasnya untuk dibandingkan:", 
+        options=classes,
+        default=[classes[0]]
     )
 
-    # Split the input into a list of class numbers and convert them to the full class code
-    class_prefix = "3KA"
-    input_class_numbers = [str(num).strip() for num in input_class_numbers.split(",")]
-
-    # Create the full class names (e.g., '3KA01', '3KA02', etc.)
-    input_classes = [class_prefix + num.zfill(2) for num in input_class_numbers]
-
     # Ensure that the inputted classes are valid
-    valid_classes = [cls for cls in input_classes if cls in classes]
+    valid_classes = [cls for cls in input_class_numbers if cls in classes]
 
     # Submit Button for Class Comparison
     if st.button("Bandingkan", key="compare_all_classes"):
@@ -72,18 +70,14 @@ with st.expander("Pembandingan dengan semua kelas", expanded=False):
                 st.dataframe(similarity_df)
 
         else:
-            st.warning("Tolong ketik kelas yang valid (1-20).")
+            st.warning("Tolong pilih kelas yang valid (1-20).")
 
 # New feature: Check specific DOSEN and MATA KULIAH overlap between two classes
 
 # Let the user input class numbers (1 to 20) for two classes to compare
-with st.expander("Pembandingan DOSEN dan MATA KULIAH antara dua kelas", expanded=False):
-    input_class_1_number = st.text_input("Ketik kelas pertama (1 sampai 20, Contoh: 1):", "1")
-    input_class_2_number = st.text_input("Ketik kelas kedua (1 sampai 20, Contoh: 2):", "2")
-
-    # Convert numbers to full class names (e.g., '3KA01', '3KA02')
-    input_class_1 = class_prefix + str(input_class_1_number).zfill(2)
-    input_class_2 = class_prefix + str(input_class_2_number).zfill(2)
+with st.expander("Pembandingan Dosen dan Mata Kuliah antara dua Kelas", expanded=False):
+    input_class_1 = st.selectbox("Pilih kelas pertama:", options=classes, index=0)
+    input_class_2 = st.selectbox("Pilih kelas kedua:", options=classes, index=1)
 
     # Ensure that the inputted classes are valid
     valid_classes_in_data = [cls for cls in [input_class_1, input_class_2] if cls in classes]
@@ -140,3 +134,43 @@ with st.expander("Pembandingan DOSEN dan MATA KULIAH antara dua kelas", expanded
 
         else:
             st.warning("Tolong masukkan angka kelas yang valid (1-20) yang ada dalam daftar kelas.")
+
+with st.expander("Perbandingan Kelas berdasarkan Dosen dan Mata Kuliah", expanded=False):
+    selected_class = st.selectbox("Pilih kelas:", classes)
+    
+    # Get the list of DOSEN for the selected class
+    dosen_in_class = df[df['KELAS'] == selected_class]['DOSEN'].unique()
+    selected_dosen = st.selectbox("Pilih DOSEN:", dosen_in_class)
+    
+    # Submit Button for this feature
+    if st.button("Bandingkan Kelas Lain", key="compare_by_dosen"):
+        # Filter dataset for the selected DOSEN
+        dosen_classes = df[df['DOSEN'] == selected_dosen]
+        
+        # Get the mata kuliah taught by the DOSEN in the selected class
+        selected_class_subjects = set(
+            dosen_classes[dosen_classes['KELAS'] == selected_class]['MATA KULIAH']
+        )
+        
+        # Compare with other classes
+        comparison_data = []
+        for _, row in dosen_classes.iterrows():
+            class_name = row['KELAS']
+            subject_name = row['MATA KULIAH']
+            
+            # Check if the class is different and if the mata kuliah overlaps
+            if class_name != selected_class:
+                comparison_data.append({
+                    'KELAS': class_name,
+                    'MATA KULIAH': subject_name,
+                })
+        
+        # Convert the comparison data into a DataFrame
+        comparison_df = pd.DataFrame(comparison_data)
+        
+        # Display the results
+        st.subheader(f"Kelas lain yang diajar oleh {selected_dosen}")
+        if comparison_df.empty:
+            st.write(f"Tidak ada kelas lain yang diajar oleh {selected_dosen}.")
+        else:
+            st.dataframe(comparison_df)
